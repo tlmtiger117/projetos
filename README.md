@@ -1,2 +1,2 @@
-# estudos
-lugar onde vou mostrar o que estou estudando no momento.
+# projetos
+lugar onde vou mostrar a prática das minhas anotações.
