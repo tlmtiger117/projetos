@@ -41,7 +41,7 @@ Fluxo do funcionamento da rede virtual inetrna:
   - comando: sudo nano /etc/netplan/00-installer-config.yaml
   - depois é só seguir configurando a rede como na METASPOTABLE.
 
-3- Roteador/gateway: utilizado para comunicação externa a sua rede(outra LAN ou acessando a internet)
+3-(Roteador/gateway:) utilizado para comunicação externa a sua rede(outra LAN ou acessando a internet)
                      - o roteador não fica com os dados, ele simplesmte repassa para o ip de destino
                        e retorna a resposta dele fazendo o caminho inevrso.
 
