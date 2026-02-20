@@ -49,8 +49,10 @@ Fluxo do funcionamento da rede virtual inetrna:
   - isso é nencessário para o roteador fazer o repasse de dados entre redes. sem isso, não tem como repassar
      as informações.
 
-resumo: Configure as VMS cleintes em redes diferentes, tenha uma VM específica pro roteamento, configure
-        o roteador com 2 adaptadores de rede/interface(da cliente 1 e 2),teste e salve com snapshots em todas.
+resumo: Configure as VMS cleintes em redes diferentes
+        - tenha uma VM específica pro roteamento
+        - roteador com 2 adaptadores de rede/interface(da cliente 1 e 2)
+        - teste e salve com snapshots em todas as VMs.
     
   
                    
