@@ -46,14 +46,14 @@ Fluxo do funcionamento da rede virtual inetrna:
                        e retorna a resposta dele fazendo o caminho inevrso.
 
   - arquivo(no Ubuntu server): /etc/netplan/<arquivo>
-    comando: sudo nano /etc/netplan/00-installer-config.yaml
+    comando: sudo nano /etc/netplan/<arquivo>
 
   - no roteador, você tem que definir 2 interfaces de rede no seu virtualuizador(eu utilizei Vitual box)
      nomeu caso, é a "rede interna".
   - isso é nencessário para o roteador fazer o repasse de dados entre redes. sem isso, não tem como repassar
      as informações.
 
-resumo: Configure as VMS cleintes em redes diferentes
+Resumo: Configure as VMS cleintes em redes diferentes
         - tenha uma VM específica pro roteamento
         - roteador com 2 adaptadores de rede/interface(da cliente 1 e 2)
         - teste e salve com snapshots em todas as VMs.
