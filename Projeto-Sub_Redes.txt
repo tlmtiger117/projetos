@@ -30,6 +30,7 @@ Fluxo do funcionamento da rede virtual inetrna:
 1-(METASPOTABLE): VM vulneravel propositalmente, utilizada para testes de segurança/redes.
 
   - arquivo: /etc/networking/interfaces
+  - comando: sudo nano /etc/networking/interfaces
   - dai é só ir configurando a rede(definir ineterface,ip,máscara,e roteador(opcional por ser rede inetrna)).
 
 
@@ -37,6 +38,7 @@ Fluxo do funcionamento da rede virtual inetrna:
                    certo.
 
   - arquivo: /etc/netplan/<arquivo> # o arquivo no ubunto server pode variar, por isso sempre conferir.
+  - comando: sudo nano /etc/netplan/00-installer-config.yaml
   - depois é só seguir configurando a rede como na METASPOTABLE.
 
 3- Roteador/gateway: utilizado para comunicação externa a sua rede(outra LAN ou acessando a internet)
@@ -44,6 +46,8 @@ Fluxo do funcionamento da rede virtual inetrna:
                        e retorna a resposta dele fazendo o caminho inevrso.
 
   - arquivo(no Ubuntu server): /etc/netplan/<arquivo>
+    comando: sudo nano /etc/netplan/00-installer-config.yaml
+
   - no roteador, você tem que definir 2 interfaces de rede no seu virtualuizador(eu utilizei Vitual box)
      nomeu caso, é a "rede interna".
   - isso é nencessário para o roteador fazer o repasse de dados entre redes. sem isso, não tem como repassar
