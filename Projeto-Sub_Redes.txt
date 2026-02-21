@@ -48,6 +48,10 @@ Fluxo do funcionamento da rede virtual inetrna:
   - arquivo(no Ubuntu server): /etc/netplan/<arquivo>
     comando: sudo nano /etc/netplan/<arquivo>
 
+  - forward(repasse)comando: sudo sysctl -w net.ipv4.ip_forward=1
+    . utilizado para repassar os dados de uma rede para a outra
+    . este comando é temporário, ou seja, sempre que desligar a VM/resetar, tem que reativar de novo(0 = inativo 1= ativo)
+
   - no roteador, você tem que definir 2 interfaces de rede no seu virtualuizador(eu utilizei Vitual box)
      nomeu caso, é a "rede interna".
   - isso é nencessário para o roteador fazer o repasse de dados entre redes. sem isso, não tem como repassar
