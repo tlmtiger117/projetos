@@ -1,2 +1,2 @@
 # Projetos
-lugar onde vou mostrar a prática das minhas anotações.
+lugar onde vou mostrar meus projetos finalizados.
